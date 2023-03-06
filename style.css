@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.background {
+  background-image: url("Amazing-Snow-Background.webp");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container h1 {
+  font-size: 1.15em;
+  color: #fff;
+}
+
+.settings {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.settings .fa-cog {
+  font-size: 1.5em;
+  color: #fff;
+}
+.settings-content {
+  display: flex;
+  gap: 1em;
+}
+.settings-content input {
+  padding: 0.5rem rem;
+  font-size: 1em;
+}
+.settings-content button {
+  padding: 0.5rem 1em;
+  background-color: rgb(240, 240, 50);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  color: #333;
+}
+.hide {
+  display: none;
+}
+
+.time-container {
+  margin-top: 0.7em;
+  display: flex;
+  gap: 0.6em;
+  justify-content: center;
+  align-items: center;
+}
+.time-container h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
+.time-container div {
+  font-size: 1.5em;
+  color: #fff;
+}
